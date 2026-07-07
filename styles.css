@@ -169,6 +169,16 @@ hr {
   color: #c83f37;
   font-weight: 700;
 }
+
+
+.services-list {
+  display: grid;
+  gap: 11px;
+  font-size: 17px;
+}
+.service-item { margin: 0; }
+.service-role { font-weight: 700; }
+
 .site-footer {
   margin-top: 34px;
   color: var(--muted);
@@ -206,6 +216,7 @@ hr {
   .intro-text { font-size: 17px; line-height: 1.72; }
   .section h2 { font-size: 24px; }
   .news-list { font-size: 16px; }
+  .services-list { font-size: 16px; }
   .publication {
     grid-template-columns: 120px minmax(0, 1fr);
     gap: 15px;
